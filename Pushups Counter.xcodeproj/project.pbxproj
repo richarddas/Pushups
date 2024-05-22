@@ -14,8 +14,8 @@
 		230DEADB2BFE1DDC003B7FE7 /* Pushups_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DEADA2BFE1DDC003B7FE7 /* Pushups_CounterTests.swift */; };
 		230DEAE52BFE1DDC003B7FE7 /* Pushups_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DEAE42BFE1DDC003B7FE7 /* Pushups_CounterUITests.swift */; };
 		230DEAE72BFE1DDC003B7FE7 /* Pushups_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DEAE62BFE1DDC003B7FE7 /* Pushups_CounterUITestsLaunchTests.swift */; };
-		230DEAFA2BFE1E37003B7FE7 /* PushupsDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DEAF82BFE1E37003B7FE7 /* PushupsDetector.swift */; };
-		230DEAFB2BFE1E37003B7FE7 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DEAF92BFE1E37003B7FE7 /* MotionManager.swift */; };
+		23ABD7282BFE295C0037A3A8 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABD7262BFE295C0037A3A8 /* MotionManager.swift */; };
+		23ABD7292BFE295C0037A3A8 /* PushupsDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABD7272BFE295C0037A3A8 /* PushupsDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		230DEAE02BFE1DDC003B7FE7 /* Pushups CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushups CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		230DEAE42BFE1DDC003B7FE7 /* Pushups_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushups_CounterUITests.swift; sourceTree = "<group>"; };
 		230DEAE62BFE1DDC003B7FE7 /* Pushups_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushups_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		230DEAF82BFE1E37003B7FE7 /* PushupsDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushupsDetector.swift; path = "../../../../Push Ups/Reps/Services/PushupsDetector.swift"; sourceTree = "<group>"; };
-		230DEAF92BFE1E37003B7FE7 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManager.swift; path = "../../../../Push Ups/Reps/Services/MotionManager.swift"; sourceTree = "<group>"; };
+		23ABD7262BFE295C0037A3A8 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		23ABD7272BFE295C0037A3A8 /* PushupsDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushupsDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +151,8 @@
 		230DEAF52BFE1E1C003B7FE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				230DEAF92BFE1E37003B7FE7 /* MotionManager.swift */,
-				230DEAF82BFE1E37003B7FE7 /* PushupsDetector.swift */,
+				23ABD7262BFE295C0037A3A8 /* MotionManager.swift */,
+				23ABD7272BFE295C0037A3A8 /* PushupsDetector.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -288,9 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				230DEACC2BFE1DDA003B7FE7 /* ContentView.swift in Sources */,
-				230DEAFA2BFE1E37003B7FE7 /* PushupsDetector.swift in Sources */,
+				23ABD7282BFE295C0037A3A8 /* MotionManager.swift in Sources */,
+				23ABD7292BFE295C0037A3A8 /* PushupsDetector.swift in Sources */,
 				230DEACA2BFE1DDA003B7FE7 /* Pushups_CounterApp.swift in Sources */,
-				230DEAFB2BFE1E37003B7FE7 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
